@@ -49,7 +49,7 @@ function draw() {
 
 	if (npcGroup.isTouching(lonely_pc)) {
 		console.log("bye");
-		//npcGroup;
+		npcGroup.bounceOff(lonely_pc);
 	}
 
 	npc1.display();
